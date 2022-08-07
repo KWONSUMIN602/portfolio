@@ -47,9 +47,7 @@ const HeaderPresenter: React.FC<Props> = ({ currentPathname }) => {
 						<div className={styles.groupbtn}>
 							<button
 								onClick={() => {
-									alert(
-										"수정중이라 빠른 시일 내에 연동하겠습니다. 감사합니다."
-									);
+									router.push("https://github.com/KWONSUMIN602");
 								}}
 							>
 								<span>GitHub</span>
@@ -57,8 +55,8 @@ const HeaderPresenter: React.FC<Props> = ({ currentPathname }) => {
 							</button>
 							<button
 								onClick={() => {
-									alert(
-										"수정중이라 빠른 시일 내에 연동하겠습니다. 감사합니다."
+									router.push(
+										"https://sincere-flight-097.notion.site/Study-9faa8c0d40644eb2a79ccf06db1550ce"
 									);
 								}}
 							>
