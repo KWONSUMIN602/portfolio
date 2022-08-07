@@ -1,0 +1,43 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	/* width: 100%;
+	height: 100%;
+	overflow: scroll; */
+	padding: 12px;
+	background-repeat: no-repeat;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+body {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	background: linear-gradient(#1c2471, black);
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+p {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+* {
+	box-sizing: border-box;
+	color: #fff;
+}
+@media screen and (max-width: 1224px) {
+	html,
+	body {
+		width: 100%;
+		padding: 8px;
+	}
+	body {
+		background: linear-gradient(black, #1c2471);
+	}
+}
