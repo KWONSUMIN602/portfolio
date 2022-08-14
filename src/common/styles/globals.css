@@ -29,7 +29,6 @@ p {
 
 * {
 	box-sizing: border-box;
-	color: #fff;
 }
 @media screen and (max-width: 1224px) {
 	html,
@@ -41,4 +40,38 @@ p {
 		background: linear-gradient(black, #1c2471);
 		background-repeat: no-repeat;
 	}
+}
+
+/* 부트 스트랩
+--포트폴리오 페이지 시작 */
+.nav-pills .nav-link.active {
+	margin-bottom: 28px;
+}
+.nav-pills .nav-link.active {
+	background-color: transparent !important;
+	border-bottom: 1px solid #fff;
+	border-radius: 0;
+	opacity: 1;
+}
+.nav-link {
+	color: #fff !important;
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+/* 포폴 상세 시작 */
+.alert-primary {
+	margin-top: 26px;
+	color: #28328b !important;
+	background-color: #fff !important;
+}
+.alert-dismissible {
+	padding-right: 1rem !important;
+}
+/* 포폴 상세 끝*/
+/* --포트폴리오 페이지 끝 */
+
+@media screen and (min-width: 601px) and (max-width: 1224px) {
+}
+@media screen and (max-width: 600px) {
 }

@@ -1,2 +1,94 @@
+.tapWrap {
+	width: 100%;
+	background-color: transparent;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.portfolioContent {
+	width: 18%;
+	min-width: 180px;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 4px;
+	margin: 10px auto;
+	cursor: pointer;
+}
+.portfolioContent2 {
+	width: 18%;
+	min-width: 180px;
+	background-color: transparent;
+	padding: 10px;
+	border-radius: 4px;
+	margin: 10px auto;
+}
+.portfolioImg {
+	width: 100%;
+	height: 134px;
+	background-repeat: no-repeat;
+	border-radius: 4px;
+	background-size: cover;
+	background-color: #ddd;
+}
+
+.portfolioTxt {
+	width: 100%;
+	margin: 8px 0;
+	font-family: "Roboto";
+	font-style: normal;
+	color: #000 !important;
+}
+.portfolioTxt h3 {
+	font-style: border;
+	font-weight: 600;
+	font-size: 18px;
+}
+.portfolioTxt div {
+	font-style: lighter;
+	font-weight: 400;
+	font-size: 14px;
+}
 @media screen and (max-width: 1224px) {
+	.portfolioContent {
+		width: 23%;
+		min-width: 180px;
+		padding: 10px;
+		background-color: #fff;
+	}
+	.portfolioContent2 {
+		width: 23%;
+		min-width: 180px;
+		padding: 10px;
+		background-color: transparent;
+	}
+}
+@media screen and (max-width: 600px) {
+	.portfolioContent {
+		width: 42%;
+		min-width: 155px;
+		padding: none;
+		background-color: #fff;
+	}
+	.portfolioContent2 {
+		width: 42%;
+		min-width: 155px;
+		padding: none;
+		background-color: transparent;
+	}
+	.portfolioImg {
+		height: 114px;
+		border-radius: 4px;
+	}
+	.portfolioTxt {
+		margin: 8px 0;
+	}
+	.portfolioTxt h3 {
+		font-size: 16px;
+	}
+	.portfolioTxt div {
+		font-style: lighter;
+		font-weight: 400;
+		font-size: 12px;
+	}
 }

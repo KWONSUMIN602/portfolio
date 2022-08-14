@@ -64,11 +64,16 @@
 	color: #fff;
 	margin-bottom: 10px;
 }
-@media screen and (max-width: 1224px) {
+@media screen and (min-width: 701) and (max-width: 1224px) {
 	.contentbox {
 		padding: 8px;
-	}
-	.contentbox {
 		margin-bottom: 32px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.contentbox {
+		padding: 8px;
+		margin-bottom: 32px;
+		font-size: 14px;
 	}
 }
