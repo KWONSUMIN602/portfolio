@@ -12,39 +12,46 @@ const ProfilePresenter = () => {
 		<div className={commmonStyles.mainWrapper}>
 			<div className={commmonStyles.flexWrap}>
 				<div className={commmonStyles.contentWrapper}>
-					<h6>Intro</h6>
+					<h6>Introduce Myself</h6>
 					<hr />
 					<div className={commmonStyles.contentbox01}>
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text
-						ever since the 1500s, when an unknown printer took a galley of type
-						and scrambled it to make a type specimen book. It has survived not
-						only five centuries, but also the leap into electronic typesetting,
-						remaining essentially unchanged. It was popularised in the 1960s
-						with the release of Letraset sheets containing Lorem Ipsum passages,
-						and more recently with desktop publishing software like Aldus
-						PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
-						dummy text of the printing and typesetting industry. Lorem Ipsum has
-						been the industry's standard dummy text ever since the 1500s, when
-						an unknown printer took a galley of type and scrambled it to make a
-						type specimen book. It has survived not only five centuries, but
-						also the leap into electronic typesetting, remaining essentially
-						unchanged. It was popularised in the 1960s with the release of
-						Letraset sheets containing Lorem Ipsum passages, and more recently
-						with desktop publishing software like Aldus PageMaker including
-						versions of Lorem Ipsum.
+						안녕하세요 : ) <br />
+						코딩하는 맛을 알고 보다 좋은 UX를 만들어 나가고 싶은 개발자입니다.
+						<br />
+						<br />
+						저는 현재 프론트엔드 개발을 하고 있으며, 주로 react 다루고 있습니다.
+						<br />
+						또한 다양한 라이브러리를 활용할 줄 알고 웹퍼블리셔 경험이 있어 html
+						/css 다루는 데 있어서 능하며 퍼블리싱이 빠릅니다.
+						<br />
+						웹퍼블리셔부터 코딩을 공부하면서 프론트엔드 개발까지 열심히 달려왔고
+						스스로 코딩 공부하며 찾아가는 것에 있어 큰 성취감과 재미를 느낍니다.
+						<br />
+						코딩의 무궁무진한 세계를 좋아하는, 무한한 가능성을 가진
+						개발자입니다.
+						<br />
+						<br />
+						제가 더 궁금하시다면 이메일로 언제든 연락주세요.
+						<br />
+						함께 성장하고 싶습니다. 감사합니다 🙇🏻‍♀️
 					</div>
 				</div>
 				<div className={commmonStyles.contentWrapper}>
-					<h6>Keyword</h6>
+					<h6>Certificate</h6>
 					<hr />
 					<div className={commmonStyles.contentbox01}>
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text
-						ever since the 1500s, when an unknown printer took a galley of type
-						and scrambled it to make a type specimen book. It has survived not
-						only five centuries, but also the leap into electronic typesetting,
-						remaining essentially unchanged.
+						✏️ 웹 디자인 기능사
+						<br />
+						<br />
+						✏️ GTQ i 일러스트 1급
+						<br />
+						<br />
+						✏️GTQ 포토샵 1급
+						<br />
+						<br />
+						✏️2종 보통 운전면허
+						<br />
+						<br />
 					</div>
 				</div>
 			</div>
