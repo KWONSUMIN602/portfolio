@@ -30,12 +30,16 @@
 	border-radius: 4px;
 	background-size: cover;
 	background-color: #ddd;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 .tagbox {
 	width: 100%;
 	display: flex;
 	margin: 8px 0;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 .tagbox span {
 	font-family: "Roboto";
@@ -48,6 +52,7 @@
 	border-radius: 4px;
 	padding: 2px 4px;
 	margin-right: 8px;
+	margin-bottom: 0.25rem;
 }
 .portfolioTxt {
 	width: 100%;
@@ -88,7 +93,10 @@
 	// height: 100%;
 	// max-height: 340px;
 	height: 400px;
-	background-color: red;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
 	border-radius: 3px;
 }

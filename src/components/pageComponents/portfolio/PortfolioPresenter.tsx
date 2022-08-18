@@ -38,33 +38,43 @@ const PortfolioPresenter: React.FC<props> = ({
 							<span style={{ fontWeight: 700, fontSize: 20 }}>
 								{detail.projectName}
 							</span>
-							&nbsp; &nbsp; &nbsp;{detail.service}
+							<span>&nbsp; {detail.service}</span>
+							&nbsp; &nbsp; &nbsp;
 							<br />[ 진행 기간 :&nbsp;
 							{detail.date} ]
+							<br />
+							포지션 : &nbsp;&nbsp;{detail.position}
 						</p>
 
 						<div className={styles.contentsWrap}>
 							<div className={styles.content01}>
-								<div className={styles.projectImg} />
+								<div
+									className={styles.projectImg}
+									style={{
+										backgroundImage: "url(" + detail.imgUrl + ")",
+									}}
+								/>
 								<div className={styles.groupbtn}>
-									<button
-										onClick={() => {
-											router.push(
-												"https://sincere-flight-097.notion.site/Study-9faa8c0d40644eb2a79ccf06db1550ce"
-											);
-										}}
-									>
-										<span>Link</span>
-										<img src="/images/header/notion.svg" alt="notion" />
-									</button>
-									<button
-										onClick={() => {
-											router.push("");
-										}}
-									>
-										<span>GitHub</span>
-										<img src="/images/header/github.svg" alt="github" />
-									</button>
+									{detail.serviceLink != "" && (
+										<button
+											onClick={() => {
+												router.push(detail.serviceLink);
+											}}
+										>
+											<span>Link</span>
+											<img src="/images/header/notion.svg" alt="notion" />
+										</button>
+									)}
+									{detail.githubLink != "" && (
+										<button
+											onClick={() => {
+												router.push(detail.githubLink);
+											}}
+										>
+											<span>GitHub</span>
+											<img src="/images/header/github.svg" alt="github" />
+										</button>
+									)}
 								</div>
 							</div>
 
@@ -155,13 +165,16 @@ const PortfolioPresenter: React.FC<props> = ({
 													mainDescription: item.mainDescription,
 													serviceLink: item.serviceLink,
 													githubLink: item.githubLink,
+													position: item.position,
 												});
 												setShow(true);
 											}}
 										>
 											<div
 												className={styles.portfolioImg}
-												style={{ backgroundImage: "url('')" }}
+												style={{
+													backgroundImage: "url(" + item.imgUrl + ")",
+												}}
 											/>
 
 											<div className={styles.tagbox}>
@@ -206,7 +219,9 @@ const PortfolioPresenter: React.FC<props> = ({
 												>
 													<div
 														className={styles.portfolioImg}
-														style={{ backgroundImage: "url('')" }}
+														style={{
+															backgroundImage: "url(" + item.imgUrl + ")",
+														}}
 													/>
 
 													<div className={styles.tagbox}>
@@ -251,7 +266,9 @@ const PortfolioPresenter: React.FC<props> = ({
 												>
 													<div
 														className={styles.portfolioImg}
-														style={{ backgroundImage: "url('')" }}
+														style={{
+															backgroundImage: "url(" + item.imgUrl + ")",
+														}}
 													/>
 
 													<div className={styles.tagbox}>

@@ -1,5 +1,6 @@
 import router, { Router } from "next/router";
 import React, { useEffect } from "react";
+import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import styles from "./headerStyles.module.scss";
 
 type Props = {
@@ -64,10 +65,27 @@ const HeaderPresenter: React.FC<Props> = ({ currentPathname }) => {
 								<img src="/images/header/notion.svg" alt="notion" />
 							</button>
 						</div>
-						<button>
-							<span>Contact Me</span>
-							<img src="/images/header/mail.svg" alt="mail" />
-						</button>
+						<OverlayTrigger
+							key={"bottom"}
+							placement={"bottom"}
+							overlay={
+								<Tooltip id={`tooltip-bottom`}>
+									ksm8849@naver.com <br />
+									클릭하면 메일로 연결됩니다.
+									<br /> 문의 사항이 있으시다면 언제든지 연락주세요!
+								</Tooltip>
+							}
+						>
+							<button>
+								<a
+									href="mailto:ksm8849@naver.com"
+									style={{ color: "#fff", textDecoration: "none" }}
+								>
+									<span>Contact Me</span>
+									<img src="/images/header/mail.svg" alt="mail" />
+								</a>
+							</button>
+						</OverlayTrigger>
 					</div>
 				</div>
 			</div>
