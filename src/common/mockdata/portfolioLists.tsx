@@ -151,8 +151,8 @@ export const stackCollaboLists = [
 			"- 페이지스크롤에 따른 동적 라이브러리 구현",
 			"- slick 배너 제작",
 		],
-		serviceLink: "E-WORLD/E-world_main.html",
-		githubLink: "",
+		serviceLink: "http://breathin62.com/E-WORLD/E-world_main.html",
+		githubLink: "https://github.com/KWONSUMIN602/PF_eworld",
 	},
 	{
 		projectName: "SHAKE SHACK",
@@ -173,8 +173,8 @@ export const stackCollaboLists = [
 			"- 쉑쉑버거 메뉴를 쉽게 볼 수 있도록 셀렉트 박스 / 체크박스로 구현",
 			"- 스크롤시 빠른 메뉴 생성구현",
 		],
-		serviceLink: "shakeshack/shake_shack.html",
-		githubLink: "",
+		serviceLink: "http://breathin62.com/shakeshack/shake_shack.html",
+		githubLink: "https://github.com/KWONSUMIN602/PF_Shakeshack",
 	},
 	{
 		projectName: "WONDER WALL",
@@ -193,7 +193,7 @@ export const stackCollaboLists = [
 			"- 반응형사이트로 모바일/태블릿/pc버전으로 브레이크 포인트를 나눴습니다.",
 			"- 또한 웹접근성, 웹표준에 맞는 마크업을 구현하였습니다.",
 		],
-		serviceLink: "wonderwall/wonderwall.html",
-		githubLink: "",
+		serviceLink: "http://breathin62.com/wonderwall/wonderwall.html",
+		githubLink: "https://github.com/KWONSUMIN602/PF_wonderwall",
 	},
 ];
