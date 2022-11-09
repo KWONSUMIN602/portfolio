@@ -1,7 +1,14 @@
 .templeteWrap {
 	display: flex;
 	flex-direction: row;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
+
+.templeteWrap::-webkit-scrollbar {
+	display: none;
+}
+
 .contents {
 	width: 100%;
 	height: 1000px;

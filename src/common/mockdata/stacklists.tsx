@@ -12,8 +12,8 @@ export const stackCollaboLists = [
 		imgsrc: "/images/profile/notion.svg",
 	},
 	{
-		name: "Dooray",
-		imgsrc: "/images/profile/dooray.svg",
+		name: "Trello",
+		imgsrc: "/images/profile/trello.svg",
 	},
 ];
 export const stackDesignLists = [
@@ -60,8 +60,8 @@ export const stackDevelopLists = [
 		imgsrc: "/images/profile/typescript.svg",
 	},
 	{
-		name: "Babel",
-		imgsrc: "/images/profile/babel.svg",
+		name: "Next",
+		imgsrc: "/images/profile/next.svg",
 	},
 	{
 		name: "Es6",
@@ -96,24 +96,16 @@ export const stackDevelopLists = [
 		imgsrc: "/images/profile/styledComponents.svg",
 	},
 	{
-		name: "Webpack",
-		imgsrc: "/images/profile/webpack.svg",
-	},
-	{
-		name: "Next",
-		imgsrc: "/images/profile/next.svg",
-	},
-	{
 		name: "Mobix",
 		imgsrc: "/images/profile/mobix.svg",
 	},
 	{
 		name: "Axios",
-		imgsrc: "/images/profile/Axios.svg",
+		imgsrc: "/images/profile/axios.svg",
 	},
 	{
 		name: "Redux",
-		imgsrc: "/images/profile/Redux.svg",
+		imgsrc: "/images/profile/redux.svg",
 	},
 	{
 		name: "Postman",

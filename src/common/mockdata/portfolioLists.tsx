@@ -81,7 +81,7 @@ export const stackCollaboLists = [
 	},
 	{
 		projectName: "방구석연구소",
-		date: "2021.07 _  2021.0",
+		date: "2021.07 _  2021.08",
 		service: "유형테스트 서비스",
 		position: "퍼블리싱",
 		type: "develop",
